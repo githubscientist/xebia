@@ -38,6 +38,13 @@ Brute Force Approach:
 
 Generate all the possible pairs of the numbers and check if the sum of any pair is equal to the target.
 
+
+Algorithm:
+
+1. Generate all possible pairs of the numbers.
+2. For each of the pair, check if the pair sum is equal to the target.
+3. If the sum is equal to the target, return the indices of the pair.
+
 Time Complexity: O(n^2)
 
 Second Approach:
@@ -53,3 +60,9 @@ Third Approach:
 Hashing Approach:
 
 Use a hash table to store the elements and their indices.
+
+Problem Solving Techniques:
+
+1. Problem Understanding
+2. Algorithm [Multiple Approaches] - Choose the best/optimal approach
+3. Coding
